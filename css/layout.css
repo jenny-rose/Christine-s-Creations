@@ -24,13 +24,28 @@ TABLE OF CONTENT
 ================================================== */
 
 * {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-   box-sizing: border-box; }
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
 
 body {
-  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: Trebuchet MS, Arial, sans-serif;
   background-color: #fff;
+}
+
+.love {
+  color: #F56991
+}
+
+a,
+a:visited {
+  color: #956392;
+  text-decoration: none
+}
+
+a:hover {
+  color: #C27FAF;
+  font-weight: bold
 }
 
 
@@ -69,7 +84,7 @@ nav ul li {
 nav ul li span {
   display: block;
   text-decoration: none;
-  color: #EB8F75 !important;
+  color: #956392 !important;
   font-family: "IM Fell English", serif;
   text-transform: uppercase;
   font-size: 16px;
@@ -97,6 +112,7 @@ footer {
   border-top: 5px solid #292929;
   color: #ccc;
   font-size: 12px;
+  padding: 0 0 10px 0;
 }
 
 footer h4 {
@@ -108,11 +124,13 @@ footer h4 {
   border-bottom: 1px dotted #737373;
 }
 
-footer ul li {
-  display: inline-block;
+.copyright {
+  background: #292929;
+  color: #fff;
+  padding: 15px 0;
+  font-size: .9em;
+  text-align: center
 }
-
-
 /* ===============================================
 #PAGE STYLES
 ================================================== */
